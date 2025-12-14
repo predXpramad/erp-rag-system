@@ -36,17 +36,7 @@ desktop.ini
 *.pid
 uvicorn.log
 
-# ===============================
-# Data & Documents (IMPORTANT)
-# ===============================
-data/raw_docs/
-data/processed_docs/
 
-# ===============================
-# Vector Store / Embeddings
-# ===============================
-backend/vector_store/faiss_index/
-*.faiss
 
 # ===============================
 # Model / LLM Artifacts
