@@ -1,0 +1,86 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# ===============================
+# OS / Editor
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+
+# ===============================
+# Logs & Cache
+# ===============================
+*.log
+.cache/
+
+# ===============================
+# FastAPI / Uvicorn
+# ===============================
+*.pid
+uvicorn.log
+
+# ===============================
+# Data & Documents (IMPORTANT)
+# ===============================
+data/raw_docs/
+data/processed_docs/
+
+# ===============================
+# Vector Store / Embeddings
+# ===============================
+backend/vector_store/faiss_index/
+*.faiss
+
+# ===============================
+# Model / LLM Artifacts
+# ===============================
+models/
+ollama/
+
+# ===============================
+# Environment Variables
+# ===============================
+.env
+*.env
+
+# ===============================
+# Build / Distribution
+# ===============================
+build/
+dist/
+
+# ===============================
+# Notebooks / Experiments
+# ===============================
+.ipynb_checkpoints/
+notebooks/
+
+# ===============================
+# Test Artifacts
+# ===============================
+.pytest_cache/
+coverage.xml
+htmlcov/
+
+# ===============================
+# Temporary Files
+# ===============================
+*.tmp
+*.bak

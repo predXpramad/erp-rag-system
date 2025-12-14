@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pydantic
+pdfplumber
+nltk
+sentence-transformers
+faiss-cpu
+openai
